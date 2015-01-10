@@ -302,42 +302,5 @@ output {
 }
 
 #adpacks {
-    line-height: 1.75;
-    display: block;
-    
-    &::before {
-        content: 'Sponsored via Apacks';
-        color: #9ab;
-        display: block;
-        margin-bottom: 1em;
-    }
-    
-    @media screen and (max-width: 800px) { padding-top: 2em; }
-}
-
-.adpacks-img {
-    display: inline;
-    float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    
-    img {
-        border: 1px solid #eee;
-    }
-}
-
-.adpacks-poweredby {
     display: none;
-}
-
-.adpacks-text {
-    _margin-top: -.1em;
-    font-size: 85%;
-    text-overflow: ellipsis;
-    display: block;
-    height: 4.5em;
-    
-    &::after {
-        content: '..';
-    }
 }
